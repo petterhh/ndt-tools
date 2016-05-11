@@ -1,7 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Script to compute precision, recall and F-score for each PoS tag in a corpus"""
+"""
+Compute precision, recall and F-score for each PoS tag in a CoNLL file
+"""
+
 from __future__ import division
 from collections import defaultdict
 from itertools import izip

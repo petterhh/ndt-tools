@@ -1,7 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Script to map coarse tag set to more fine-grained tag set in conll file"""
+"""
+Map coarse tag set to more fine-grainedtag set in CoNLL file based on supplied
+tags and morphological features
+"""
+
 import sys
 import argparse
 from collections import defaultdict
