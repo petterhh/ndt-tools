@@ -16,7 +16,7 @@
     <div class="wrapper">
       <header>
         <h1>NDT tools</h1>
-        <p>Tools for use with Norwegian Dependency Treebank (NDT)</p>
+        <p>Tools for use with the Norwegian Dependency Treebank (NDT)</p>
 
         <p class="view"><a href="https://github.com/petterhh/ndt-tools">View the Project on GitHub <small>petterhh/ndt-tools</small></a></p>
 
@@ -27,8 +27,7 @@
         </ul>
       </header>
       <section>
-        <h3>PoS tagger model for use with SVMTool and syntactic parser model
-            for use with the Mate parser</h3>
+        <h3>PoS tagger model and syntactic parser model based on NDT</h3>
         <ul>
             <li><strong>mate-parser-model</strong> contains the model for use with the <a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.6.jar">Mate parser</a>.</li>
             <li><strong>svmtool-tagger-model</strong> contains the model for use with the <a href=" http://www.cs.upc.edu/~nlp/SVMTool/#">SVMTool tagger</a>.</li>
@@ -38,7 +37,9 @@
         Norwegian Dependency treebank. <strong>training.conll</strong>
         contains the training data, <strong>dev.conll</strong> contains the
         development data, <strong>test.conll</strong> contains the test
-        data.</p>
+        data. In the creation of this split, care was taken to preserve
+        contiguous texts and also to keep the split balanced in terms of
+        genre.</p>
       </section>
     <footer>
     <p>This project is maintained by <a href="https://github.com/petterhh">petterhh</a></p>
