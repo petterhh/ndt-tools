@@ -1,2 +1,3 @@
 # ndt-tools
-Tools for use with Norwegian Dependency Treebank
+Tools for use with Norwegian Dependency Treebank.
+

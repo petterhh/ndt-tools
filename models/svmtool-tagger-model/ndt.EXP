@@ -1,0 +1,80 @@
+----------------------------------------------------------------------------------------
+SVMTool v1.3.1
+(C) 2009 TALP RESEARCH CENTER.
+Written by Jesus Gimenez and Lluis Marquez.
+----------------------------------------------------------------------------------------
+TRAINING SET = /home/pettehoh/data/ndt-train.svmt
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+CREATING DICTIONARY <ndt.DICT> FROM </home/pettehoh/data/ndt-train.svmt>
+AUTOMATICALLY REPAIRING DICTIONARY <ndt.DICT> [0.001] (#REPAIRINGS = 23)
+DICTIONARY <ndt.DICT> [30076 words]
+
+*********************************************************************************************
+BUILDING MODELS... [MODE = 1 :: DIRECTON = LR]
+*********************************************************************************************
+
+
+=============================================================================================
+=============================================================================================
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+BUILDING MODELS ON WHOLE CORPUS </home/pettehoh/data/ndt-train.svmt>
+C PARAMETER [MODE = 1 :: DIRECTON = LR]:   KNOWN [ C = 0 ] :: UNKNOWN [ C = 0 ]
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------- KNOWN WORDS... [MODE = 1 :: DIRECTON = LR] -------------------
+FEATURE EXTRACTION from < /home/pettehoh/data/ndt-train.svmt > onto < ndt.M1.LR.SAMPLES > ......244776 WORDS [DONE]
+MAKING MAPPING from <ndt.M1.LR.SAMPLES>... [DONE]
+WRITING MAPPING <ndt.M1.LR.SAMPLES.MAP>... [FREQ = 1] :: [SIZE = 536820] [DONE]
+MAPPING DATA FEATURES from <ndt.M1.LR.SAMPLES> to <ndt.M1.LR.SAMPLES.DSF>.....69654 [DONE]
+LEARNING SVM MODELS... [C = 0] ..<anf>..<parentes-slutt>..adj..adv..det..inf-merke..interj..konj..prep..pron..sbu..subst..symb..ukjent..verb [DONE]
+BENCHMARK TIME: 64.0000
+---------------- UNKNOWN WORDS... [MODE = 1 :: DIRECTON = LR] -------------------
+FEATURE EXTRACTION from < /home/pettehoh/data/ndt-train.svmt > onto < ndt.UNK.M1.LR.SAMPLES > ......244776 WORDS [DONE]
+MAKING MAPPING from <ndt.UNK.M1.LR.SAMPLES>... [DONE]
+WRITING MAPPING <ndt.UNK.M1.LR.SAMPLES.MAP>... [FREQ = 1] :: [SIZE = 280600] [DONE]
+MAPPING DATA FEATURES from <ndt.UNK.M1.LR.SAMPLES> to <ndt.UNK.M1.LR.SAMPLES.DSF>.....25333 [DONE]
+LEARNING SVM MODELS... [C = 0] ..<parentes-beg>..<parentes-slutt>..adj..adv..clb..det..interj..konj..prep..pron..sbu..subst..symb..ukjent..verb [DONE]
+BENCHMARK TIME: 49.0000
+----------------------------------------------------------------------------------------
+SVMTool v1.3.1
+(C) 2009 TALP RESEARCH CENTER.
+Written by Jesus Gimenez and Lluis Marquez.
+----------------------------------------------------------------------------------------
+TRAINING SET = /home/pettehoh/data/ndt-train.svmt
+----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
+
+CREATING DICTIONARY <ndt.DICT> FROM </home/pettehoh/data/ndt-train.svmt>
+AUTOMATICALLY REPAIRING DICTIONARY <ndt.DICT> [0.001] (#REPAIRINGS = 23)
+DICTIONARY <ndt.DICT> [30076 words]
+
+*********************************************************************************************
+BUILDING MODELS... [MODE = 2 :: DIRECTON = LR]
+*********************************************************************************************
+
+
+=============================================================================================
+=============================================================================================
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+BUILDING MODELS ON WHOLE CORPUS </home/pettehoh/data/ndt-train.svmt>
+C PARAMETER [MODE = 2 :: DIRECTON = LR]:   KNOWN [ C = 0 ] :: UNKNOWN [ C = 0 ]
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+---------------- KNOWN WORDS... [MODE = 2 :: DIRECTON = LR] -------------------
+FEATURE EXTRACTION from < /home/pettehoh/data/ndt-train.svmt > onto < ndt.M2.LR.SAMPLES > ......244776 WORDS [DONE]
+MAKING MAPPING from <ndt.M2.LR.SAMPLES>... [DONE]
+WRITING MAPPING <ndt.M2.LR.SAMPLES.MAP>... [FREQ = 1] :: [SIZE = 522717] [DONE]
+MAPPING DATA FEATURES from <ndt.M2.LR.SAMPLES> to <ndt.M2.LR.SAMPLES.DSF>.....69654 [DONE]
+LEARNING SVM MODELS... [C = 0] ..<anf>..<parentes-slutt>..adj..adv..det..inf-merke..interj..konj..prep..pron..sbu..subst..symb..ukjent..verb [DONE]
+BENCHMARK TIME: 59.0000
+---------------- UNKNOWN WORDS... [MODE = 2 :: DIRECTON = LR] -------------------
+FEATURE EXTRACTION from < /home/pettehoh/data/ndt-train.svmt > onto < ndt.UNK.M2.LR.SAMPLES > ......244776 WORDS [DONE]
+MAKING MAPPING from <ndt.UNK.M2.LR.SAMPLES>... [DONE]
+WRITING MAPPING <ndt.UNK.M2.LR.SAMPLES.MAP>... [FREQ = 1] :: [SIZE = 275952] [DONE]
+MAPPING DATA FEATURES from <ndt.UNK.M2.LR.SAMPLES> to <ndt.UNK.M2.LR.SAMPLES.DSF>.....25333 [DONE]
+LEARNING SVM MODELS... [C = 0] ..<parentes-beg>..<parentes-slutt>..adj..adv..clb..det..interj..konj..prep..pron..sbu..subst..symb..ukjent..verb [DONE]
+BENCHMARK TIME: 39.0000
