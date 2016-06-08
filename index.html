@@ -27,20 +27,29 @@
         </ul>
       </header>
       <section>
-        <h3>PoS tagger model and syntactic parser model based on NDT</h3>
+        <h3>PoS tagger model and syntactic parser model</h3>
         <ul>
             <li><strong>svmtool-tagger-model</strong> contains the model files for use with the <a href=" http://www.cs.upc.edu/~nlp/SVMTool/#">SVMTool tagger</a>, using the original tag set.</li>
             <li><strong>svmtool-optimized-tagger-model</strong> contains the model files for use with the <a href=" http://www.cs.upc.edu/~nlp/SVMTool/#">SVMTool tagger</a>, using the optimized tag set.</li>
             <li><strong>mate-parser-model</strong> contains the model file for use with the <a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.6.jar">Mate parser</a>, using the original tag set.</li>
             <li><strong>mate-optimized-parser-model</strong> contains the model file for use with the <a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.6.jar">Mate parser</a>, using the optimized tag set.</li>
         </ul>
-        <h3>Data set split of NDT</h3>
+        <h3>Data set split</h3>
         <p>This repository provides a data set split (training/dev/test) of the
         Norwegian Dependency Treebank. <strong>training.conll</strong>
         contains the training data, <strong>dev.conll</strong> contains the
         development data, <strong>test.conll</strong> contains the test data.
         In the creation of this split, care was taken to preserve contiguous
         texts and to keep the split balanced in terms of genre.</p>
+        <h3>Scripts</h3>
+        <ul>
+            <li><i>generate_split.py</i> generates a data set split (training/dev/test) of the
+                treebank, provided a path to the original treebank files.</li>
+            <li><i>map_tagset.py</i> maps the tag set of the treebank by introducing supplied
+            morphological features present in the treebank.</li>
+            <li><i>tagging_error_analysis.py</i> performs error analysis in terms of precision,
+            recall and F score.</li>
+        </ul>
         <p>Please cite Hohle (2016) if you use the resources.</p>
         <h3>References</h3>
         <p>Hohle, P. (2016). <i>Optimizing a PoS Tag Set for Norwegian Dependency Parsing.</i> Unpublished master's thesis, University of Oslo, Oslo, Norway.</p>
