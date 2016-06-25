@@ -16,12 +16,12 @@
     <div class="wrapper">
       <header>
         <h1>NDT tools</h1>
-        <p>This repository provides resources based on/for use with the
-        Norwegian Dependency Treebank (NDT), which can be applied to Norwegian.
-        It provides a data set split (training/dev/test) of the treebank as
-        well as PoS tagger models and syntactic parser models trained on the
-        training data in the treebank, to be applied to Norwegian. These
-        resources are the results of Hohle (2016).</p>
+        <p>This repository provides resources based on the Norwegian Dependency
+        Treebank (NDT), which can be applied to Norwegian text. It provides a
+        data set split (training/dev/test) of the treebank as well as PoS
+        tagger models and syntactic parser models trained on the training data
+        in the treebank, to be applied to Norwegian. These resources are the
+        results of Hohle (2016).</p>
 
         <p class="view"><a href="https://github.com/petterhh/ndt-tools">View the Project on GitHub <small>petterhh/ndt-tools</small></a></p>
 
@@ -32,20 +32,37 @@
         </ul>
       </header>
       <section>
+        <h3>Optimized PoS tag set</h3>
+        <p>Hohle (2016) proposes a tag set optimized for syntactic parsing of
+        Norwegian, based on the original tag set of NDT, hitherto referred to
+        as the <i>optimized</i> tag set.</p>
+
         <h3>PoS tagger model and syntactic parser model</h3>
         <ul>
             <li><strong>svmtool-tagger-model</strong> contains the model files for use with the <a href=" http://www.cs.upc.edu/~nlp/SVMTool/#">SVMTool tagger</a>, using the original tag set.</li>
-            <li><strong>svmtool-optimized-tagger-model</strong> contains the model files for use with the <a href=" http://www.cs.upc.edu/~nlp/SVMTool/#">SVMTool tagger</a>, using the optimized tag set.</li>
+            <li><strong>svmtool-optimized-tagger-model</strong> contains the model files for use with the SVMTool tagger, using the optimized tag set.</li>
             <li><strong>mate-parser-model</strong> contains the model file for use with the <a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.6.jar">Mate parser</a>, using the original tag set.</li>
-            <li><strong>mate-optimized-parser-model</strong> contains the model file for use with the <a href="https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.6.jar">Mate parser</a>, using the optimized tag set.</li>
+            <li><strong>mate-optimized-parser-model</strong> contains the model file for use with the Mate parser, using the optimized tag set.</li>
         </ul>
+        Please consult the documentation for <a href="">SVMTool</a>  <a href="">Mate</a>.
         <h3>Data set split</h3>
         <p>This repository provides a data set split (training/dev/test) of the
-        Norwegian Dependency Treebank. <strong>training.conll</strong>
-        contains the training data, <strong>dev.conll</strong> contains the
-        development data, <strong>test.conll</strong> contains the test data.
-        In the creation of this split, care was taken to preserve contiguous
-        texts and to keep the split balanced in terms of genre.</p>
+        Norwegian Dependency Treebank. In the creation of this split, care was
+        taken to preserve contiguous texts and to keep the split balanced in
+        terms of genre.</p>
+        <h2>Using the original tag set</h2>
+        <ul>
+            <li><strong>training.conll</strong> contains the training data.</li>
+            <li><strong>dev.conll</strong> contains the development data.</li>
+            <li><strong>test.conll</strong> contains the test data.</li>
+        </ul>
+        <h2>Using the optimized tag set</h2>
+        <ul>
+            <li><strong>training-optimized.conll</strong> contains the training data.</li>
+            <li><strong>dev-optimized.conll</strong> contains the development data.</li>
+            <li><strong>test-optimized.conll</strong> contains the test data.</li>
+        </ul>
+
         <h3>Scripts</h3>
         <ul>
             <li><tt>generate_split.py</tt> generates a data set split (training/dev/test) of the
