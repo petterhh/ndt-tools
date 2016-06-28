@@ -3,7 +3,7 @@ Tools for use with the Norwegian Dependency Treebank. See
 [http://petterhh.github.io/ndt-tools/](http://petterhh.github.io/ndt-tools/)
 for full documentation.
 
-*Note that this repository is under development and currently being updated continuously.*
+*Note that this repository is under development and updated continuously.*
 
 ## Data set split
 The **dataset** folder contains the data set split (training/dev/test) of the
