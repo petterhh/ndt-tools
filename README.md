@@ -6,12 +6,12 @@ for full documentation.
 *Note that this repository is under development and updated continuously.*
 
 ## Data set split
-The **dataset** folder contains the data set split (training/dev/test) of the
+The **dataset** folder contains a data set split (training/dev/test) of the
 Norwegian Dependency Treebank. 
 
 ## Tagger model and parser model
-The **models** folder contains a PoS tagger model (for use with SVMTool) and a
-syntactic parser model (for use with Mate) for Norwegian. 
+The **models** folder contains PoS tagger models (for use with SVMTool) and
+syntactic parser models (for use with Mate) for Norwegian. 
 
 ## Scripts
 The **scripts** folder contains three Python scripts for use with the treebank. 
