@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 """
-Compute precision, recall and F-score for each PoS tag in a CoNLL file
+Compute precision, recall and F-score for each PoS tag
 """
 
 from __future__ import division
