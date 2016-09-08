@@ -33,13 +33,13 @@ original tag set of NDT.
 ## Data set split
 
 This repository provides a data set split (training/dev/test) of the Norwegian Dependency Treebank. This split follows the commonly used 80-10-10 split, where 80% of the data resides in the training data, 10% is used for testing during development and 10% is held-out and used for final evaluation. In the creation of this split, care was taken to preserve contiguous texts and to keep the split balanced in terms of genre.
-#Using the original tag set
+###Using the original tag set
 
     training.conll contains the training data.
     dev.conll contains the development data.
     test.conll contains the test data.
 
-#Using the optimized tag set
+###Using the optimized tag set
 
     training-optimized.conll contains the training data.
     dev-optimized.conll contains the development data.
