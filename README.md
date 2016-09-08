@@ -1,9 +1,12 @@
 *Please note that this repository is under development.*
+
 # ndt-tools
-This repository provides NLP resources for Norwegian, based on the Norwegian
-Dependency Treebank (NDT). It provides a data set split (training/dev/test) of
-the treebank as well as PoS tagger models and syntactic parser models trained
-on the training data in the treebank. 
+This repository provides NLP resources for Norwegian, based on the [Norwegian
+Dependency Treebank
+(NDT)](http://www.nb.no/sprakbanken/show?serial=oai%3Anb.no%3Asbr-10&lang=en).
+It provides a data set split (training/dev/test) of the treebank as well as PoS
+tagger models and syntactic parser models trained on the training data in the
+treebank. 
 
 ## Optimized PoS tag set
 Hohle (2016) proposes a tag set optimized for syntactic parsing of Norwegian,
@@ -44,6 +47,10 @@ Please consult the documentation for
 [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
 [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf)
 for more information on these tools.
+You need to install/prerequisites:
+* SVMTool
+* SVMLight
+* Mate
 
 ##Scripts
 * `generate_split.py` generates a data set split (training/dev/test) of the
