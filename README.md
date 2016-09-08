@@ -1,7 +1,10 @@
-# ndt-tools
-Tools for use with the Norwegian Dependency Treebank. 
-
 *Note that this repository is under development.*
+# ndt-tools
+This repository provides resources based on the Norwegian Dependency Treebank
+(NDT), which can be applied to Norwegian text. It provides a data set split
+(training/dev/test) of the treebank as well as PoS tagger models and syntactic
+parser models trained on the training data in the treebank, to be applied to
+Norwegian. These resources are the results of Hohle (2016).
 
 ## Optimized PoS tag set
 Hohle (2016) proposes a tag set optimized for syntactic parsing of Norwegian,
@@ -37,7 +40,7 @@ split balanced in terms of genre.
 * `mate-optimized-parser-model` contains the model file for use with the Mate
   parser, using the optimized tag set.
 
-##Usage
+##Usage / prerequisites
 Please consult the documentation for
 [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
 [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf)
