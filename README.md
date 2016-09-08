@@ -66,7 +66,7 @@ Scripts
     recall and F score.
 
 ##References
-'Please cite the following thesis if you use these resources in academic works'
-Hohle, P. (2016). [Optimizing a PoS Tag Set for Norwegian Dependency
-Parsing](https://www.duo.uio.no/bitstream/handle/10852/51091/Hohle-master.pdf).
-Unpublished master's thesis, University of Oslo, Oslo, Norway.
+Please cite the following thesis if you use these resources in academic works
+Hohle, P. (2016). *[Optimizing a PoS Tag Set for Norwegian Dependency
+Parsing](https://www.duo.uio.no/bitstream/handle/10852/51091/Hohle-master.pdf)*.
+(Master's thesis). University of Oslo, Oslo, Norway.
