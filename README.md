@@ -29,7 +29,7 @@ split balanced in terms of genre.
 * `dev-optimized.conll` contains the development data.
 * `test-optimized.conll` contains the test data.
 
-##PoS tagger model and syntactic parser model
+##PoS tagger models and syntactic parser models
 * `svmtool-tagger-model` contains the model files for use with the SVMTool
   tagger, using the original tag set.
 * `svmtool-optimized-tagger-model` contains the model files for use with the
@@ -39,14 +39,13 @@ split balanced in terms of genre.
 * `mate-optimized-parser-model` contains the model file for use with the Mate
   parser, using the optimized tag set.
 
-##Usage / prerequisites
+##Usage
 Please consult the documentation for
 [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
 [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf)
 for more information on these tools.
 
 ##Scripts
-
 * `generate_split.py` generates a data set split (training/dev/test) of the
     treebank, provided a path to the original treebank files.
 * `map_tagset.py` maps the tag set of the treebank by introducing supplied
@@ -57,5 +56,5 @@ for more information on these tools.
 ##References
 Please cite the following thesis if you use these resources in academic works:
 
-Hohle, P. (2016). *[Optimizing a PoS Tag Set for Norwegian Dependency
-Parsing](https://www.duo.uio.no/bitstream/handle/10852/51091/Hohle-master.pdf)* (Master's thesis). University of Oslo, Oslo, Norway.
+>Hohle, P. (2016). *[Optimizing a PoS Tag Set for Norwegian Dependency
+>Parsing](https://www.duo.uio.no/bitstream/handle/10852/51091/Hohle-master.pdf)* (Master's thesis). University of Oslo, Oslo, Norway.
