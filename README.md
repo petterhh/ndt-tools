@@ -22,17 +22,17 @@ held-out and used for final evaluation. In the creation of this split, care was
 taken to preserve contiguous texts and to keep the split balanced in terms of
 genre.
 
-###Using the original tag set
+### Using the original tag set
 * `training.conll` contains the training data.
 * `dev.conll` contains the development data.
 * `test.conll` contains the test data.
 
-###Using the optimized tag set
+### Using the optimized tag set
 * `training-optimized.conll` contains the training data.
 * `dev-optimized.conll` contains the development data.
 * `test-optimized.conll` contains the test data.
 
-##PoS tagger models and syntactic parser models
+## PoS tagger models and syntactic parser models
 * `svmtool-tagger-model` contains the model files for use with the SVMTool
   tagger, using the original tag set.
 * `svmtool-optimized-tagger-model` contains the model files for use with the
@@ -42,7 +42,7 @@ genre.
 * `mate-optimized-parser-model` contains the model file for use with the Mate
   parser, using the optimized tag set.
 
-##Usage
+## Usage
 Please consult the documentation for
 [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
 [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf)
@@ -52,7 +52,7 @@ You need to install/prerequisites:
 * [SVMLight](http://svmlight.joachims.org/)
 * [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.61.jar)
 
-##Scripts
+## Scripts
 * `generate_split.py` generates a data set split (training/dev/test) of the
     treebank, provided a path to the original treebank files.
 * `map_tagset.py` maps the tag set of the treebank by introducing supplied
@@ -60,7 +60,7 @@ You need to install/prerequisites:
 * `tagging_error_analysis.py` performs error analysis in terms of precision,
     recall and F score.
 
-##References
+## References
 Please cite the following thesis if you use these resources in academic works:
 
 >Hohle, P. (2016). *[Optimizing a PoS Tag Set for Norwegian Dependency
