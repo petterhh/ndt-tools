@@ -15,12 +15,12 @@ original tag set of NDT, with the addition of 20 PoS tags providing more
 fine-grained morphosyntactic information.
 
 ## Data set split
-This repository provides a data set split (training/dev/test) of the Norwegian
-Dependency Treebank. This split follows the commonly used 80-10-10 split, where
-80% of the data resides in the training data, 10% is used for testing during
-development and 10% is held-out and used for final evaluation. In the creation
-of this split, care was taken to preserve contiguous texts and to keep the
-split balanced in terms of genre.
+This repository provides a data set split (training/dev/test) of NDT. This
+split follows the commonly used 80-10-10 split, where 80% of the data resides
+in the training data, 10% is used for testing during development and 10% is
+held-out and used for final evaluation. In the creation of this split, care was
+taken to preserve contiguous texts and to keep the split balanced in terms of
+genre.
 
 ###Using the original tag set
 * `training.conll` contains the training data.
