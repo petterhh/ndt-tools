@@ -3,8 +3,8 @@
 This repository provides resources based on the Norwegian Dependency Treebank
 (NDT), which can be applied to Norwegian text. It provides a data set split
 (training/dev/test) of the treebank as well as PoS tagger models and syntactic
-parser models trained on the training data in the treebank, to be applied to
-Norwegian. These resources are the results of Hohle (2016).
+parser models trained on the training data in the treebank. These resources are
+the results of Hohle (2016).
 
 ## Optimized PoS tag set
 Hohle (2016) proposes a tag set optimized for syntactic parsing of Norwegian,
