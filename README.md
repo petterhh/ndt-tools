@@ -9,29 +9,32 @@ hitherto referred to as the optimized tag set. The tag set is based on the
 original tag set of NDT.
 
 ## Data set split
-This repository provides a data set split (training/dev/test) of the Norwegian Dependency Treebank. This split follows the commonly used 80-10-10 split, where 80% of the data resides in the training data, 10% is used for testing during development and 10% is held-out and used for final evaluation. In the creation of this split, care was taken to preserve contiguous texts and to keep the split balanced in terms of genre.
+This repository provides a data set split (training/dev/test) of the Norwegian
+Dependency Treebank. This split follows the commonly used 80-10-10 split, where
+80% of the data resides in the training data, 10% is used for testing during
+development and 10% is held-out and used for final evaluation. In the creation
+of this split, care was taken to preserve contiguous texts and to keep the
+split balanced in terms of genre.
 
 ###Using the original tag set
-training.conll contains the training data.
-dev.conll contains the development data.
-test.conll contains the test data.
+* `training.conll` contains the training data.
+* `dev.conll` contains the development data.
+* `test.conll` contains the test data.
 
 ###Using the optimized tag set
-training-optimized.conll contains the training data.
-dev-optimized.conll contains the development data.
-test-optimized.conll contains the test data.
+* `training-optimized.conll` contains the training data.
+* `dev-optimized.conll` contains the development data.
+* `test-optimized.conll` contains the test data.
 
 ##PoS tagger model and syntactic parser model
-* svmtool-tagger-model contains the model files for use with the SVMTool
-tagger, using the original tag set.
-* svmtool-optimized-tagger-model
-contains the model files for use with the SVMTool tagger, using the
-optimized tag set.  
-* mate-parser-model contains the model file for use with
-the Mate parser, using the original tag set.
-* mate-optimized-parser-model
-contains the model file for use with the Mate parser, using the optimized
-tag set.
+* `svmtool-tagger-model` contains the model files for use with the SVMTool
+  tagger, using the original tag set.
+* `svmtool-optimized-tagger-model` contains the model files for use with the
+  SVMTool tagger, using the optimized tag set.  
+* `mate-parser-model` contains the model file for use with the Mate parser,
+  using the original tag set.
+* `mate-optimized-parser-model` contains the model file for use with the Mate
+  parser, using the optimized tag set.
 
 ##Usage
 For more information on these tools, please consult the documentation for SVMTool and Mate.
