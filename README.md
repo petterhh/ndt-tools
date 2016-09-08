@@ -58,11 +58,11 @@ tag set.
 For more information on these tools, please consult the documentation for SVMTool and Mate.
 Scripts
 
-* generate_split.py generates a data set split (training/dev/test) of the
+* `generate_split.py` generates a data set split (training/dev/test) of the
     treebank, provided a path to the original treebank files.
-* map_tagset.py maps the tag set of the treebank by introducing supplied
+* `map_tagset.py` maps the tag set of the treebank by introducing supplied
     morphological features present in the treebank.
-* tagging_error_analysis.py performs error analysis in terms of precision,
+* `tagging_error_analysis.py` performs error analysis in terms of precision,
     recall and F score.
 
 Note: map_tagset.py and tagging_error_analysis.py are not strictly for use with the Norwegian Dependency Treebank, but were developed in relation to my thesis work as part of the experimental setup and can hopefully be found useful by other practitioners.
