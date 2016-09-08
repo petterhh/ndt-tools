@@ -1,10 +1,9 @@
-*Note that this repository is under development.*
+*Please note that this repository is under development.*
 # ndt-tools
-This repository provides resources based on the Norwegian Dependency Treebank
-(NDT), which can be applied to Norwegian text. It provides a data set split
-(training/dev/test) of the treebank as well as PoS tagger models and syntactic
-parser models trained on the training data in the treebank. These resources are
-the results of Hohle (2016).
+This repository provides NLP resources for Norwegian, based on the Norwegian
+Dependency Treebank (NDT). It provides a data set split (training/dev/test) of
+the treebank as well as PoS tagger models and syntactic parser models trained
+on the training data in the treebank. 
 
 ## Optimized PoS tag set
 Hohle (2016) proposes a tag set optimized for syntactic parsing of Norwegian,
