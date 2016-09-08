@@ -48,9 +48,9 @@ Please consult the documentation for
 [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf)
 for more information on these tools.
 You need to install/prerequisites:
-* SVMTool
-* SVMLight
-* Mate
+* [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/#)
+* [SVMLight](http://svmlight.joachims.org/)
+* [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.61.jar)
 
 ##Scripts
 * `generate_split.py` generates a data set split (training/dev/test) of the
