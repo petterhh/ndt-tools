@@ -65,8 +65,8 @@ Scripts
 * `tagging_error_analysis.py` performs error analysis in terms of precision,
     recall and F score.
 
-
-<strong>Please cite the following thesis if you use these resources in academic works</strong>:
+##References
+'Please cite the following thesis if you use these resources in academic works'
 Hohle, P. (2016). [Optimizing a PoS Tag Set for Norwegian Dependency
 Parsing](https://www.duo.uio.no/bitstream/handle/10852/51091/Hohle-master.pdf).
 Unpublished master's thesis, University of Oslo, Oslo, Norway.
