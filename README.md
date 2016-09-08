@@ -1,12 +1,13 @@
 # ndt-tools
 Tools for use with the Norwegian Dependency Treebank. 
 
-*Note that this repository is under development and updated continuously.*
+*Note that this repository is under development.*
 
 ## Optimized PoS tag set
 Hohle (2016) proposes a tag set optimized for syntactic parsing of Norwegian,
-hitherto referred to as the optimized tag set. The tag set is based on the
-original tag set of NDT.
+hitherto referred to as the optimized tag set. This tag set is based on the
+original tag set of NDT, with the addition of 20 PoS tags providing more
+fine-grained morphosyntactic information.
 
 ## Data set split
 This repository provides a data set split (training/dev/test) of the Norwegian
