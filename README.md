@@ -38,7 +38,9 @@ split balanced in terms of genre.
   parser, using the optimized tag set.
 
 ##Usage
-For more information on these tools, please consult the documentation for SVMTool and Mate.
+For more information on these tools, please consult the documentation for
+[SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
+[Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf).
 
 ##Scripts
 
