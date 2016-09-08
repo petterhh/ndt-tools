@@ -59,7 +59,7 @@ Please cite the following thesis if you use these resources in academic works:
 >Hohle, P. (2016). *[Optimizing a PoS Tag Set for Norwegian Dependency
 >Parsing](https://www.duo.uio.no/bitstream/handle/10852/51091/Hohle-master.pdf)* (Master's thesis). University of Oslo, Oslo, Norway.
 
-```MastersThesis{Hoh:16,
+`\@MastersThesis{Hoh:16,
     author = {Petter Hohle},
     title ={Optimizing a {P}o{S} {T}ag {S}et for {N}orwegian {D}ependency
     {P}arsing},
@@ -68,4 +68,4 @@ Please cite the following thesis if you use these resources in academic works:
     address = {Oslo, Norway},
     year = {2016}
 }
-```
+`
