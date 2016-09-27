@@ -42,7 +42,17 @@ genre.
 * `mate-optimized-parser-model` contains the model file for use with the Mate
   parser, using the optimized tag set.
 
-## Usage
+## Installation
+In order to use the main script `pipeline.py`, which performs PoS tagging and
+syntactic dependency parsing on tokenized data, you need to install the PoS
+tagger SVMTool and dependency parser Mate. Note that SVMTool additionally
+requires SVMlight to be installed.
+
+* [Download SVMTool (version 1.3.1)](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.3.1.tar.gz) 
+* [Download SVM light](http://svmlight.joachims.org/)
+* [Download Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.61.jar).
+
+
 Please consult the documentation for
 [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
 [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf)
