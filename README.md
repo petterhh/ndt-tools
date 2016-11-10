@@ -47,7 +47,7 @@ In the evaluation of PoS taggers and syntactic dependency parsers in Hohle (2016
 I found that SVMTool was the best tagger and Mate the best parser on NDT. 
 
 * [Download SVMTool (version 1.3.1)](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.3.1.tar.gz) 
-* [Download Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.61.jar)
+* [Download Mate (version 3.6.1)](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.61.jar)
 
 Please consult the documentation for
 [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
