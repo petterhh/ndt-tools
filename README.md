@@ -52,7 +52,7 @@ I found that SVMTool was the best tagger and Mate the best parser on NDT.
 Please consult the documentation for
 [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
 [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf)
-for details on these how to install and run these tools once they are downloaded.
+for details on how to install and run these tools once they are downloaded.
 
 ## Scripts
 * `generate_split.py` generates a data set split (training/dev/test) of the
