@@ -9,7 +9,7 @@ tagger models and syntactic parser models trained on the training data in the
 treebank. 
 
 ## Optimized PoS tag set
-Hohle (2016) proposes a tag set optimized for syntactic parsing of Norwegian,
+Hohle (2016) proposes a tag set optimized for syntactic dependency parsing of Norwegian,
 hitherto referred to as the optimized tag set. This tag set is based on the
 original tag set of NDT, with the addition of 20 PoS tags providing more
 fine-grained morphosyntactic information.
@@ -42,20 +42,17 @@ genre.
 * `mate-optimized-parser-model` contains the model file for use with the Mate
   parser, using the optimized tag set.
 
-## Installation
-In order to run the main script `pipeline.py`, which performs PoS tagging and
-syntactic dependency parsing on tokenized data, you need to install the PoS
-tagger SVMTool and dependency parser Mate. Note that SVMTool additionally
-requires SVMlight to be installed.
+### Installation
+In the evaluation of PoS taggers and syntactic dependency parsers in Hohle (2016), 
+I found that SVMTool was the best tagger and Mate the best parser on NDT. 
 
 * [Download SVMTool (version 1.3.1)](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.3.1.tar.gz) 
-* [Download SVM light](http://svmlight.joachims.org/)
 * [Download Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/anna-3.61.jar)
 
 Please consult the documentation for
 [SVMTool](http://www.cs.upc.edu/~nlp/SVMTool/SVMTool.v1.4.pdf) and
 [Mate](https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/mate-tools/shortmanual.pdf)
-for  information on these how to install these tools once they are downloaded.
+for details on these how to install and run these tools once they are downloaded.
 
 ## Scripts
 * `generate_split.py` generates a data set split (training/dev/test) of the
