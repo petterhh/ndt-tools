@@ -1,5 +1,3 @@
-*Please note that this repository is under development.*
-
 # ndt-tools
 This repository provides NLP resources for Norwegian, based on the [Norwegian
 Dependency Treebank
