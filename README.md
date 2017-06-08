@@ -61,8 +61,13 @@ for details on how to install and run these tools once they are downloaded.
     recall and F score.
 
 ## References
-Please cite the following thesis if you use these resources in academic works:
+Please cite the following paper if you use the data sets in academic works:
+> Hohle, P., Velldal, E., Øvrelid, L. (2017). [Optimizing a PoS Tagset for
+> Norwegian Dependency Parsing](http://aclweb.org/anthology/W/W17/W17-0217.pdf). 
+> In *Proceedings of the 21st Nordic Conference on
+> Computational Linguistics (NoDaLiDa)* (pp. 142-151). Gothenburg, Sweden.
 
+Please cite the following thesis if you use the models or scripts in academic works:
 >Hohle, P. (2016). *[Optimizing a PoS Tag Set for Norwegian Dependency
 >Parsing](https://www.duo.uio.no/bitstream/handle/10852/51091/Hohle-master.pdf)*
 >(Master's thesis). University of Oslo, Oslo, Norway.
